@@ -1,0 +1,106 @@
+<Functions>
+	<Function>
+		<Name>Attack</Name>
+		<Description>Use your offensive hardware to damage your enemy.</Description>
+		<Type>FORCE</Type>
+		<ID>1</ID>
+		<Intensity>5</Intensity>
+		<Cost>0</Cost>
+		<Target>ENEMY</Target>
+		<WeaponModifier>1</WeaponModifier>
+		<StrengthModifier>1</StrengthModifier>
+		<DexterityModifier>0.5</DexterityModifier>
+		<IntellectModifier>0</IntellectModifier>
+	</Function>
+	<Function>
+		<Name>Data Pulse</Name>
+		<Description>Lower an enemy's ICE by distrupting their data structure.</Description>
+		<Type>DATA</Type>
+		<ID>2</ID>
+		<Intensity>2</Intensity>
+		<Cost>2</Cost>
+		<Target>ENEMY</Target>
+		<WeaponModifier>0</WeaponModifier>
+		<StrengthModifier>0</StrengthModifier>
+		<DexterityModifier>0</DexterityModifier>
+		<IntellectModifier>0.2</IntellectModifier>
+	</Function>
+	<Function>
+		<Name>Modified Strike</Name>
+		<Description>Modify your weapon's attack by accessing your internal power storage.</Description>
+		<Type>DATA</Type>
+		<ID>3</ID>
+		<Intensity>3</Intensity>
+		<Cost>5</Cost>
+		<Target>ENEMY</Target>
+		<WeaponModifier>1</WeaponModifier>
+		<StrengthModifier>0.3</StrengthModifier>
+		<DexterityModifier>0.2</DexterityModifier>
+		<IntellectModifier>0.5</IntellectModifier>
+	</Function>
+	<Function>
+		<Name>Reboot</Name>
+		<Description>Take next battle phase to reboot your system returning some of your RAM.</Description>
+		<Type>DATA</Type>
+		<ID>4</ID>
+		<Intensity>5</Intensity>
+		<Cost>100</Cost>
+		<Target>SELF</Target>
+		<WeaponModifier>0</WeaponModifier>
+		<StrengthModifier>0</StrengthModifier>
+		<DexterityModifier>0</DexterityModifier>
+		<IntellectModifier>1.2</IntellectModifier>
+	</Function>
+	<Function>
+		<Name>Over Clock</Name>
+		<Description>Push your proformance for the remainder of the battle at the cost of RAM.</Description>
+		<Type>FORCE</Type>
+		<ID>5</ID>
+		<Intensity>5</Intensity>
+		<Cost>5</Cost>
+		<Target>SELF</Target>
+		<WeaponModifier>0</WeaponModifier>
+		<StrengthModifier>0.5</StrengthModifier>
+		<DexterityModifier>0.3</DexterityModifier>
+		<IntellectModifier>0.3</IntellectModifier>
+	</Function>			
+	<Function>
+		<Name>Barricade</Name>
+		<Description>Modify your current configurations to improve ICE temporarily.</Description>
+		<Type>DATA</Type>
+		<ID>6</ID>
+		<Intensity>1</Intensity>
+		<Cost>0</Cost>
+		<Target>SELF</Target>
+		<WeaponModifier>0</WeaponModifier>
+		<StrengthModifier>2</StrengthModifier>
+		<DexterityModifier>0</DexterityModifier>
+		<IntellectModifier>0</IntellectModifier>
+	</Function>
+	<Function><!-- This will require a talent, remove previous effect and scale with strength -->
+		<Name>Force Pulse</Name>
+		<Description>Concentrate on stregth to modify your DATA manipulation.</Description>
+		<Type>DATA</Type>
+		<ID>7</ID>
+		<Intensity>2</Intensity>
+		<Cost>2</Cost>
+		<Target>ENEMY</Target>
+		<WeaponModifier>0</WeaponModifier>
+		<StrengthModifier>0.4</StrengthModifier>
+		<DexterityModifier>0</DexterityModifier>
+		<IntellectModifier>0.1</IntellectModifier>
+	</Function>
+	<Function>
+		<Name>Quick Splice</Name>
+		<Description>Powerful force attack that grows in intensity with the player's strength.</Description>
+		<Type>FORCE</Type>
+		<ID>8</ID>
+		<Intensity>5</Intensity>
+		<Cost>5</Cost>
+		<Target>ENEMY</Target>
+		<WeaponModifier>0.5</WeaponModifier>
+		<StrengthModifier>2</StrengthModifier>
+		<DexterityModifier>0.5</DexterityModifier>
+		<IntellectModifier>0</IntellectModifier>
+	</Function>
+</Functions>

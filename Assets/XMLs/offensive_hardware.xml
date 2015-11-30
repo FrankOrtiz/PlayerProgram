@@ -1,0 +1,66 @@
+<Items><!-- First 4 are starter weapons for each class -->
+	<Item>
+		<ItemName>Simple Equalizer</ItemName>
+		<ItemDescription>Just point and shoot.</ItemDescription>
+		<ItemID>1</ItemID>
+		<ImageID>equalizer_common_1</ImageID>
+		<WeaponDamage>4</WeaponDamage>
+		<Strength>0</Strength>
+		<Dexterity>0</Dexterity>
+		<Intellect>3</Intellect>
+		<RAM>0</RAM>
+		<ICE>0</ICE>
+		<CPURequirement>1</CPURequirement>
+		<Rarity>Common</Rarity>
+		<ItemType>OFFENSIVE_HARDWARE</ItemType>
+		<OffensiveHardwareType>EQUALIZER</OffensiveHardwareType>
+	</Item>
+	<Item>
+		<ItemName>Basic Barrier</ItemName>
+		<ItemDescription>Do not use this offesnively... No matter how tempting.</ItemDescription>
+		<ItemID>2</ItemID>
+		<ImageID>barrier_common_2</ImageID>
+		<WeaponDamage>0</WeaponDamage>
+		<Strength>0</Strength>
+		<Dexterity>0</Dexterity>
+		<Intellect>1</Intellect>
+		<RAM>0</RAM>
+		<ICE>1</ICE>
+		<CPURequirement>1</CPURequirement>
+		<Rarity>Common</Rarity>
+		<ItemType>OFFENSIVE_HARDWARE</ItemType>
+		<OffensiveHardwareType>BARRIER</OffensiveHardwareType>
+	</Item>
+	<Item>
+		<ItemName>Heavy Splicer</ItemName>
+		<ItemDescription>Standard two-handed blade.</ItemDescription>
+		<ItemID>3</ItemID>
+		<ImageID>saber_common_1</ImageID>
+		<WeaponDamage>6</WeaponDamage>
+		<Strength>4</Strength>
+		<Dexterity>0</Dexterity>
+		<Intellect>0</Intellect>
+		<RAM>2</RAM>
+		<ICE>0</ICE>
+		<CPURequirement>1</CPURequirement>
+		<Rarity>Common</Rarity>
+		<ItemType>OFFENSIVE_HARDWARE</ItemType>
+		<OffensiveHardwareType>SABER</OffensiveHardwareType>
+	</Item>
+	<Item>
+		<ItemName>Hack and Slash</ItemName>
+		<ItemDescription>Average crafted pair of lightweight blades.</ItemDescription>
+		<ItemID>4</ItemID>
+		<ImageID>twin_blades_common_1</ImageID>
+		<WeaponDamage>5</WeaponDamage>
+		<Strength>1</Strength>
+		<Dexterity>4</Dexterity>
+		<Intellect>0</Intellect>
+		<RAM>0</RAM>
+		<ICE>0</ICE>
+		<CPURequirement>1</CPURequirement>
+		<Rarity>Common</Rarity>
+		<ItemType>OFFENSIVE_HARDWARE</ItemType>
+		<OffensiveHardwareType>TWIN_BLADES</OffensiveHardwareType>
+	</Item>
+</Items>
